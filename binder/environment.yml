@@ -1,0 +1,11 @@
+name: cnn-tute
+channels:
+  - defaults
+dependencies:
+  - ipykernel
+  - torchaudio
+  - torchvision
+  - cpuonly
+  - pytorch
+  - matplotlib
+prefix: C:\Users\Brian\anaconda3\envs\cnn-tute
