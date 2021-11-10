@@ -1,7 +1,6 @@
 # CNN `PyTorch` Tutorial
  Basic tutorial for building CNN from scratch in PyTorch.
 
-
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bbpi2/cnn-pytorch-tutorial/HEAD)
 
 
@@ -19,3 +18,8 @@
 
 NOTE: Steps 7-8 can be skipped if we just pulled from the `environment.yml` file (generated using `conda env export --from-history -f environment.yml`)
 
+
+
+### Change Log
+
+* Removed `torchaudio` and `cpuonly` since the `repo2docker` from binder cannot find these packages
