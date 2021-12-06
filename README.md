@@ -32,6 +32,3 @@ NOTE: Steps 7-8 can be skipped if we just pulled from the `environment.yml` file
 ### Change Log
 
 * Removed `torchaudio` and `cpuonly` since the `repo2docker` from binder cannot find these packages
-
-*this is a branch*
-
