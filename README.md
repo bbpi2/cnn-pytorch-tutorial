@@ -1,7 +1,16 @@
 # CNN `PyTorch` Tutorial
  Basic tutorial for building CNN from scratch in PyTorch.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bbpi2/cnn-pytorch-tutorial/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bbpi2/cnn-pytorch-tutorial/dev)
+
+
+
+## 💳 Credit
+This tutorial was heavily borrowed from the [d2l.ia](http://d2l.ai/). Major changes made include:
+* Simplification and adaptation to cpu-only implementation.
+* Comments and descriptions of the functions.
+
+Note the sample code in the d2l.ia [repo](https://github.com/d2l-ai/d2l-en) is subject to a modified [MIT License](https://en.wikipedia.org/wiki/MIT_License). 
 
 
 ### Running in your own environment
@@ -23,3 +32,6 @@ NOTE: Steps 7-8 can be skipped if we just pulled from the `environment.yml` file
 ### Change Log
 
 * Removed `torchaudio` and `cpuonly` since the `repo2docker` from binder cannot find these packages
+
+*this is a branch*
+
