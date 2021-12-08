@@ -4,11 +4,11 @@
 
 ## 💳 Credit
 
-<u>Introduction to Jupyter Notebooks & Python</u>
+### Introduction to Jupyter Notebooks & Python
 
 This was heavily borrowed and adapted from [this tutorial](https://github.com/ABS-Neural-Nets-Tutorial/Intro-To-Neural-Networks)
 
-<u>Procedure of Building a CNN from PyTorch</u>
+### Procedure of Building a CNN from PyTorch
 
 This tutorial was heavily borrowed from the [d2l.ia](http://d2l.ai/). Major changes made include:
 * Simplification and adaptation to cpu-only implementation.
@@ -22,7 +22,7 @@ Note the sample code in the d2l.ia [repo](https://github.com/d2l-ai/d2l-en) is s
 
 This will depend on whether or not you have had any experience with python and anaconda before.
 
-<u>No Experience</u>
+### No Experience
 
 Simply click on the following link to open a [mybinder](https://mybinder.org/) application by clicking the button below:
 
@@ -30,7 +30,7 @@ Simply click on the following link to open a [mybinder](https://mybinder.org/) a
 
 *Note: This may take several minutes to open.*
 
-<u>Some Python/Anaconda Experience</u>
+### Some Python/Anaconda Experience
 
 It is recommended that you clone this repo to your own device and then run the notebooks from there. You will have more access to resources than the mybinder application.
 
