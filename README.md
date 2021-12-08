@@ -20,7 +20,7 @@ Note the sample code in the d2l.ia [repo](https://github.com/d2l-ai/d2l-en) is s
 
 ## ✍️ How to Use
 
-This will depend on whether or not you have had any experience with python and anaconda before.
+Have you used command line/terminal and Anaconda before?
 
 ### No Experience
 
@@ -30,33 +30,27 @@ Simply click on the following link to open a [mybinder](https://mybinder.org/) a
 
 *Note: This may take several minutes to open.*
 
-### Some Python/Anaconda Experience
+### Some Experience
 
-It is recommended that you clone this repo to your own device and then run the notebooks from there. You will have more access to resources than the mybinder application.
+*This is recommended since mybinder has limited resources. These instructions were tested for a Windows machine.*
 
-1. Install [Anaconda](https://docs.anaconda.com/anaconda/install/index.html) (Miniconda should also work, but Anaconda is recommended if you have the disc space)
-2. Clone this repository to your local directory (either with `git clone` or just downloading the `.zip`)
-3. Open 'Anaconda Prompt' from the start menu and create a new virtual environment `conda create -n cnn-tutorial`
-4. Activate this new environment `conda activate cnn-tutorial`
-5. Install `ipykernel` by running `conda install ipykernel`
-6. Create a new Jupyter kernel and link by running `python -m ipykernel install --user --name=cnn-tutorial`. Note your anaconda prompt should have the `cnn-tutorial` environment active - eg:
-
+1. Install [Anaconda](https://docs.anaconda.com/anaconda/install/index.html) by following the prompts in the link, just keep clicking next (it may warn you that you have a space in your directory, this should be fine).
+2. Clone this repo to your local directory (`git clone` or download `.zip`).
+3. Open `Anaconda Prompt (anaconda3)` from the start menu and move to where you cloned this repo (for me I had to `cd Documents\cnn-pytorch-tutorial-main\cnn-pytorch-tutorial-main`).
+4. Create a new virtual conda environment with: `conda create -n cnn-tutorial`
+5. Activate this new environment by running: `conda activate cnn-tutorial`. You should now see the following in your terminal:
 ```bash
-(base) C:>
+(cnn-tutorial) C:>
 ```
-7. Install the key packages. There are two options:
+6. Install ipykernel by running: `conda install ipykernel`.
+7. Create a Jupyter Kernel and link to your environment by running: `python -m ipykernel install --user --name=cnn-tutorial`.
+8. Install key pacakges:
+    * Pytorch: `conda install pytorch torchvision torchaudio cpuonly -c pytorch`
+    * Matplotlib: `conda install matplotlib`
+9. Deactivate the conda environment by running `conda deactivate`. (We should still be in the directory with folders such as `notebook` and `binder` with the same structure as this repo).
+10. Start Jupyter Lab by running `jupyter lab` and make sure the kernel set is `cnn-tutorial`.
 
-Option A: Using Conda Environments:
-
-* `cd` to `./binder` and run `conda env export --from-history -f environment.yml`
-
-Option B: Manually Install Packages:
-
-* Pytorch: `conda install pytorch torchvision torchaudio cpuonly -c pytorch`
-* Matplotlib: `conda install matplotlib`
-
-8. Open an instance of Jupyter Lab wherever you have clone this repo to (`cd` to the directory and run `jupyter lab`)
-9. Set the kernel to be `cnn-tutorial` when running each notebook.
+You may also install the environment directly from the `environments.yml` file in `./binder`. However, I have not gotten this to work. 😭
 
 ### Change Log
 
