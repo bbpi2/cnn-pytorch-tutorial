@@ -50,7 +50,7 @@ Simply click on the following link to open a [mybinder](https://mybinder.org/) a
 9. Deactivate the conda environment by running `conda deactivate`. (We should still be in the directory with folders such as `notebook` and `binder` with the same structure as this repo).
 10. Start Jupyter Lab by running `jupyter lab` and make sure the kernel set is `cnn-tutorial`.
 
-You may also install the environment directly from the `environments.yml` file in `./binder`. However, I have not gotten this to work. 😭
+You may also install the environment directly from the `environment.yml` file in `./binder`. However, I have not gotten this to work. 😭
 
 ### Change Log
 

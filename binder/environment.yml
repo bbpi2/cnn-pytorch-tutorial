@@ -1,4 +1,4 @@
-name: cnn-tute
+name: cnn-tutorial
 channels:
   - defaults
 dependencies:
@@ -6,4 +6,3 @@ dependencies:
   - torchvision
   - pytorch
   - matplotlib
-prefix: C:\Users\Brian\anaconda3\envs\cnn-tute
